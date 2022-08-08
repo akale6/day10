@@ -23,7 +23,7 @@ public class Stars {
                 System.out.print(" ");
             }
             for (int j = 1; j <= 2 * i - 1; j++) { //j表示星星
-                if (j == 1 || j == 2 * i - 1 ){
+                if (j == 1 || j == 2 * i - 1 || i == totalLevel){
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
